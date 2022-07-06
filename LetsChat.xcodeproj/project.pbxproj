@@ -25,12 +25,19 @@
 		090907222875BD220079C6FC /* Landing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0909071B2875BD220079C6FC /* Landing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		090907272875BD4D0079C6FC /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090907262875BD4D0079C6FC /* Landing.storyboard */; };
 		090907292875BD860079C6FC /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090907282875BD860079C6FC /* LandingViewController.swift */; };
-		0909072B2875BDDB0079C6FC /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909072A2875BDDB0079C6FC /* Builder.swift */; };
 		090907342875BE570079C6FC /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 090907332875BE570079C6FC /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		090907372875BE570079C6FC /* Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090907312875BE570079C6FC /* Utility.framework */; };
 		090907382875BE570079C6FC /* Utility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 090907312875BE570079C6FC /* Utility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0909073E2875BE9F0079C6FC /* UIViewController+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909073D2875BE9F0079C6FC /* UIViewController+Extenstion.swift */; };
 		090907422875C2CD0079C6FC /* Landing.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090907412875C2CD0079C6FC /* Landing.xcassets */; };
+		0909074D2875CD5A0079C6FC /* ChatroomLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0909074C2875CD5A0079C6FC /* ChatroomLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		090907502875CD5A0079C6FC /* ChatroomLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0909074A2875CD5A0079C6FC /* ChatroomLogin.framework */; };
+		090907512875CD5A0079C6FC /* ChatroomLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0909074A2875CD5A0079C6FC /* ChatroomLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		090907562875CE0B0079C6FC /* ChatroomLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090907552875CE0B0079C6FC /* ChatroomLogin.storyboard */; };
+		090907582875CE330079C6FC /* ChatroomLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090907572875CE330079C6FC /* ChatroomLoginViewController.swift */; };
+		0909075A2875CE6A0079C6FC /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909072A2875BDDB0079C6FC /* Builder.swift */; };
+		0909075C2875CE7E0079C6FC /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909075B2875CE7E0079C6FC /* Builder.swift */; };
+		090907602875CF340079C6FC /* ChatroomLogin.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0909075F2875CF340079C6FC /* ChatroomLogin.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,33 +48,54 @@
 			remoteGlobalIDString = 090907002875B9570079C6FC;
 			remoteInfo = Window;
 		};
-		0909071F2875BD220079C6FC /* PBXContainerItemProxy */ = {
+		090907632875D85A0079C6FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090906B92874A4B10079C6FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090907492875CD5A0079C6FC;
+			remoteInfo = ChatroomLogin;
+		};
+		090907652875D85A0079C6FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 090906B92874A4B10079C6FC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0909071A2875BD220079C6FC;
 			remoteInfo = Landing;
 		};
-		090907352875BE570079C6FC /* PBXContainerItemProxy */ = {
+		090907672875D85A0079C6FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 090906B92874A4B10079C6FC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 090907302875BE570079C6FC;
 			remoteInfo = Utility;
 		};
-		0909073F2875C1E20079C6FC /* PBXContainerItemProxy */ = {
+		090907692875D8870079C6FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 090906B92874A4B10079C6FC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 090907302875BE570079C6FC;
-			remoteInfo = Utility;
+			remoteGlobalIDString = 090907492875CD5A0079C6FC;
+			remoteInfo = ChatroomLogin;
 		};
-		090907432875CAFD0079C6FC /* PBXContainerItemProxy */ = {
+		0909076B2875D8870079C6FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 090906B92874A4B10079C6FC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0909071A2875BD220079C6FC;
 			remoteInfo = Landing;
+		};
+		0909076D2875D8AA0079C6FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090906B92874A4B10079C6FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090907302875BE570079C6FC;
+			remoteInfo = Utility;
+		};
+		0909076F2875D8B50079C6FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090906B92874A4B10079C6FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090907302875BE570079C6FC;
+			remoteInfo = Utility;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -79,6 +107,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				090907382875BE570079C6FC /* Utility.framework in Embed Frameworks */,
+				090907512875CD5A0079C6FC /* ChatroomLogin.framework in Embed Frameworks */,
 				090907222875BD220079C6FC /* Landing.framework in Embed Frameworks */,
 				090907082875B9570079C6FC /* Window.framework in Embed Frameworks */,
 			);
@@ -111,6 +140,12 @@
 		090907332875BE570079C6FC /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		0909073D2875BE9F0079C6FC /* UIViewController+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extenstion.swift"; sourceTree = "<group>"; };
 		090907412875C2CD0079C6FC /* Landing.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Landing.xcassets; sourceTree = "<group>"; };
+		0909074A2875CD5A0079C6FC /* ChatroomLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChatroomLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0909074C2875CD5A0079C6FC /* ChatroomLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatroomLogin.h; sourceTree = "<group>"; };
+		090907552875CE0B0079C6FC /* ChatroomLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatroomLogin.storyboard; sourceTree = "<group>"; };
+		090907572875CE330079C6FC /* ChatroomLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomLoginViewController.swift; sourceTree = "<group>"; };
+		0909075B2875CE7E0079C6FC /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		0909075F2875CF340079C6FC /* ChatroomLogin.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ChatroomLogin.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				090907372875BE570079C6FC /* Utility.framework in Frameworks */,
+				090907502875CD5A0079C6FC /* ChatroomLogin.framework in Frameworks */,
 				090907212875BD220079C6FC /* Landing.framework in Frameworks */,
 				090907072875B9570079C6FC /* Window.framework in Frameworks */,
 			);
@@ -145,6 +181,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		090907472875CD5A0079C6FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -163,6 +206,7 @@
 				090907012875B9570079C6FC /* Window.framework */,
 				0909071B2875BD220079C6FC /* Landing.framework */,
 				090907312875BE570079C6FC /* Utility.framework */,
+				0909074A2875CD5A0079C6FC /* ChatroomLogin.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +241,7 @@
 		0909070D2875B95C0079C6FC /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				0909074B2875CD5A0079C6FC /* ChatroomLogin */,
 				0909073C2875BE640079C6FC /* Shared */,
 				0909071C2875BD220079C6FC /* Landing */,
 				090907022875B9570079C6FC /* Window */,
@@ -233,6 +278,18 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		0909074B2875CD5A0079C6FC /* ChatroomLogin */ = {
+			isa = PBXGroup;
+			children = (
+				0909074C2875CD5A0079C6FC /* ChatroomLogin.h */,
+				090907552875CE0B0079C6FC /* ChatroomLogin.storyboard */,
+				090907572875CE330079C6FC /* ChatroomLoginViewController.swift */,
+				0909075B2875CE7E0079C6FC /* Builder.swift */,
+				0909075F2875CF340079C6FC /* ChatroomLogin.xcassets */,
+			);
+			path = ChatroomLogin;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -260,6 +317,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		090907452875CD5A0079C6FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0909074D2875CD5A0079C6FC /* ChatroomLogin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -275,9 +340,10 @@
 			buildRules = (
 			);
 			dependencies = (
+				090907642875D85A0079C6FC /* PBXTargetDependency */,
+				090907662875D85A0079C6FC /* PBXTargetDependency */,
+				090907682875D85A0079C6FC /* PBXTargetDependency */,
 				090907062875B9570079C6FC /* PBXTargetDependency */,
-				090907202875BD220079C6FC /* PBXTargetDependency */,
-				090907362875BE570079C6FC /* PBXTargetDependency */,
 			);
 			name = LetsChat;
 			productName = LetsChat;
@@ -296,7 +362,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				090907442875CAFD0079C6FC /* PBXTargetDependency */,
+				0909076A2875D8870079C6FC /* PBXTargetDependency */,
+				0909076C2875D8870079C6FC /* PBXTargetDependency */,
 			);
 			name = Window;
 			productName = Window;
@@ -315,7 +382,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				090907402875C1E20079C6FC /* PBXTargetDependency */,
+				0909076E2875D8AA0079C6FC /* PBXTargetDependency */,
 			);
 			name = Landing;
 			productName = Landing;
@@ -338,6 +405,25 @@
 			name = Utility;
 			productName = Utility;
 			productReference = 090907312875BE570079C6FC /* Utility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		090907492875CD5A0079C6FC /* ChatroomLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090907522875CD5A0079C6FC /* Build configuration list for PBXNativeTarget "ChatroomLogin" */;
+			buildPhases = (
+				090907452875CD5A0079C6FC /* Headers */,
+				090907462875CD5A0079C6FC /* Sources */,
+				090907472875CD5A0079C6FC /* Frameworks */,
+				090907482875CD5A0079C6FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090907702875D8B50079C6FC /* PBXTargetDependency */,
+			);
+			name = ChatroomLogin;
+			productName = ChatroomLogin;
+			productReference = 0909074A2875CD5A0079C6FC /* ChatroomLogin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -365,6 +451,10 @@
 						CreatedOnToolsVersion = 13.4.1;
 						LastSwiftMigration = 1340;
 					};
+					090907492875CD5A0079C6FC = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
 				};
 			};
 			buildConfigurationList = 090906BC2874A4B10079C6FC /* Build configuration list for PBXProject "LetsChat" */;
@@ -384,6 +474,7 @@
 				090907002875B9570079C6FC /* Window */,
 				0909071A2875BD220079C6FC /* Landing */,
 				090907302875BE570079C6FC /* Utility */,
+				090907492875CD5A0079C6FC /* ChatroomLogin */,
 			);
 		};
 /* End PBXProject section */
@@ -422,6 +513,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		090907482875CD5A0079C6FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090907602875CF340079C6FC /* ChatroomLogin.xcassets in Resources */,
+				090907562875CE0B0079C6FC /* ChatroomLogin.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -451,7 +551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				090907292875BD860079C6FC /* LandingViewController.swift in Sources */,
-				0909072B2875BDDB0079C6FC /* Builder.swift in Sources */,
+				0909075A2875CE6A0079C6FC /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +563,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		090907462875CD5A0079C6FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090907582875CE330079C6FC /* ChatroomLoginViewController.swift in Sources */,
+				0909075C2875CE7E0079C6FC /* Builder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -471,25 +580,40 @@
 			target = 090907002875B9570079C6FC /* Window */;
 			targetProxy = 090907052875B9570079C6FC /* PBXContainerItemProxy */;
 		};
-		090907202875BD220079C6FC /* PBXTargetDependency */ = {
+		090907642875D85A0079C6FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090907492875CD5A0079C6FC /* ChatroomLogin */;
+			targetProxy = 090907632875D85A0079C6FC /* PBXContainerItemProxy */;
+		};
+		090907662875D85A0079C6FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0909071A2875BD220079C6FC /* Landing */;
-			targetProxy = 0909071F2875BD220079C6FC /* PBXContainerItemProxy */;
+			targetProxy = 090907652875D85A0079C6FC /* PBXContainerItemProxy */;
 		};
-		090907362875BE570079C6FC /* PBXTargetDependency */ = {
+		090907682875D85A0079C6FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 090907302875BE570079C6FC /* Utility */;
-			targetProxy = 090907352875BE570079C6FC /* PBXContainerItemProxy */;
+			targetProxy = 090907672875D85A0079C6FC /* PBXContainerItemProxy */;
 		};
-		090907402875C1E20079C6FC /* PBXTargetDependency */ = {
+		0909076A2875D8870079C6FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 090907302875BE570079C6FC /* Utility */;
-			targetProxy = 0909073F2875C1E20079C6FC /* PBXContainerItemProxy */;
+			target = 090907492875CD5A0079C6FC /* ChatroomLogin */;
+			targetProxy = 090907692875D8870079C6FC /* PBXContainerItemProxy */;
 		};
-		090907442875CAFD0079C6FC /* PBXTargetDependency */ = {
+		0909076C2875D8870079C6FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0909071A2875BD220079C6FC /* Landing */;
-			targetProxy = 090907432875CAFD0079C6FC /* PBXContainerItemProxy */;
+			targetProxy = 0909076B2875D8870079C6FC /* PBXContainerItemProxy */;
+		};
+		0909076E2875D8AA0079C6FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090907302875BE570079C6FC /* Utility */;
+			targetProxy = 0909076D2875D8AA0079C6FC /* PBXContainerItemProxy */;
+		};
+		090907702875D8B50079C6FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090907302875BE570079C6FC /* Utility */;
+			targetProxy = 0909076F2875D8B50079C6FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -866,6 +990,67 @@
 			};
 			name = Release;
 		};
+		090907532875CD5A0079C6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demoapp.ChatroomLogin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		090907542875CD5A0079C6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demoapp.ChatroomLogin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -910,6 +1095,15 @@
 			buildConfigurations = (
 				0909073A2875BE570079C6FC /* Debug */,
 				0909073B2875BE570079C6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090907522875CD5A0079C6FC /* Build configuration list for PBXNativeTarget "ChatroomLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090907532875CD5A0079C6FC /* Debug */,
+				090907542875CD5A0079C6FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
